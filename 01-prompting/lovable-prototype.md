@@ -1,21 +1,15 @@
 # Lovable Prototype · Juno
 
-> Module 1 · Prompting. The clickable Lovable prototype that brings the system prompt to life.
-
 ## Prototype link
 
-_The public Lovable share URL._
-
-_____
+https://lovable.dev/projects/56659f40-06b3-46f7-b225-997840557dd4
 
 ## What it demonstrates
 
-_The one flow this prototype proves._
-
-_____
+It shows how Juno takes messy product inputs and turns them into structured product thinking.
 
 ## Debrief
 
-- **What worked:** _____
-- **What broke / felt like a toy:** _____
-- **What I'd change next pass:** _____
+- **What worked:** The end-to-end story works. From raw input to organized, actionable insights to a draft PRD, all with the click of a button.
+- **What broke / felt like a toy:** The AI analysis felt somewhat simulated, with generic outputs and limited traceability back to the raw transcripts. Some interactions appeared functional but lacked deeper behavior, making parts of the prototype feel more like a demo than a production-ready PM tool.
+- **What I'd change next pass:** I'd give the Draft PRD slightly more breathing room and make the three columns feel more balanced
