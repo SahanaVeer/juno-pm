@@ -32,7 +32,7 @@ Output:
 
 The evidence indicates a high-risk, unresolved ATM transaction issue, with conflicting information between Slack and Jira. Escalate to the human PM to reconcile the conflicting evidence and confirm whether the P0 issue is actually resolved.
 
-Example 2 — Insufficient evidence
+Example 2: Insufficient evidence
 
 Input:
 Assess the churn risk for this customer based on the escalation thread. The customer has expressed frustration and mentioned evaluating alternatives, but no ARR information is available.
