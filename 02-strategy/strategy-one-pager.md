@@ -14,8 +14,6 @@ Target Metrics
 •	Decision quality: ≥ 80% of Juno recommendations are rated useful/actionable by PMs 
 •	Efficiency: Reduce time spent on requirements/decision analysis by 30% 
 •	Adoption: ≥ 70% of target PMs use Juno weekly 
-Leadership “don’t touch it” metric: Validated product decision rate. If Juno demonstrably improves the quality of product decisions, it becomes difficult to justify removing or significantly changing it.
-
 
 ## 3. Autonomy Level
 
@@ -39,5 +37,5 @@ Guardrail: Juno must show the evidence and sources behind every recommendation a
 
 IN: Analyze user signals, feedback, and product context to surface patterns, identify likely user intent, and recommend product priorities or next steps.
 
-OUT: Autonomously make or approve product decisions. The PM remains the final decision-maker.
-     Automatically execute changes in production. Juno will not modify features, workflows, or customer experiences without human review and approval.
+OUT: Autonomously make or approve product decisions: the PM remains the final decision-maker.
+Automatically execute changes in production:Juno will not modify features, workflows, or customer experiences without human review and approval.
