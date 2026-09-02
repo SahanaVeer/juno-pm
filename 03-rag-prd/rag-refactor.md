@@ -22,4 +22,4 @@ Every priority now defends itself with a strategy clause + a ticket ID.
 
 ### Takeaway
 
-> RAG transformed Juno from a guesser into an evidence-backed decision-maker. The strategy document now drives its priorities not intuition or vibes.
+RAG transformed Juno from a guesser into an evidence-backed decision-maker. The strategy document now drives its priorities not intuition or vibes.
