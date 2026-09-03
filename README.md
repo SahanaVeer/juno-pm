@@ -1,12 +1,12 @@
-# Juno PM
+# Juno PM: Your AI Associate Product Manager
 
-> _(one-line pitch: what Juno does, for whom, in one sentence)_
+> Juno PM is an AI Associate Product Manager that transforms scattered customer and business signals into evidence-backed insights, prioritized opportunities, and actionable PRD drafts.
 
-_Your name · cohort · date_
+_Sahana Parameswarappa - AI Product Management Certification - ai-product-management-aug17-26 Cohort_
 
-This repo is my final project for the **AI Product Management Certification**. Each module's artefact lives in its own folder; this README is the dashboard and the pitch.
+Repo: https://github.com/SahanaVeer/juno-pm
 
-**How to use this template:** click **Use this template → Create a new repository**, name it `juno-pm`, and commit one module's artefact per session. Assemble this dashboard with the **Final Project Deliverables Builder** (paste its `README.md` output over this file).
+This repo is my final project for the AI Product Management Certification — **Juno PM: Your AI Associate Product Manager**. Each module’s artefact lives in its own folder; this README is the dashboard and the pitch.
 
 ---
 
@@ -14,7 +14,7 @@ This repo is my final project for the **AI Product Management Certification**. E
 
 ### M1 · Prompting
 - **System prompt** — [`01-prompting/system-prompt.md`](01-prompting/system-prompt.md)
-- **Lovable prototype** — _(share URL)_
+- **Prototype** — https://lovable.dev/projects/56659f40-06b3-46f7-b225-997840557dd4
 
 ### M2 · Strategy
 - **Decision matrix** — [`02-strategy/decision-matrix.md`](02-strategy/decision-matrix.md)
@@ -31,7 +31,7 @@ This repo is my final project for the **AI Product Management Certification**. E
 - **Agent Workflow Spec (AWSpec)** — [`05-agentic-workflows/awspec.md`](05-agentic-workflows/awspec.md)
 - **Agent Control Panel** — [`05-agentic-workflows/agent-control-panel.md`](05-agentic-workflows/agent-control-panel.md)
 
-### M6 · Evals & Guardrails
+### M6 · Evals &amp; Guardrails
 - **Eval stack** — [`06-evals/eval-stack.md`](06-evals/eval-stack.md)
 - **Human evaluation rubric** — [`06-evals/human-rubric.md`](06-evals/human-rubric.md)
 
@@ -40,53 +40,62 @@ This repo is my final project for the **AI Product Management Certification**. E
 ## PM Execution Plan
 
 ### Where Juno is today
-_____
+Juno PM is a working AI PM prototype that demonstrates the end-to-end journey from raw product signals to structured insights, prioritization, and an evidence-backed PRD draft.
+
+Built: Core workflow, user experience, AI reasoning flow, RAG architecture, and PRD generation
+Validated: Product concept, user flow, evaluation criteria, guardrails, and feedback loop
+Current stage: Functional prototype / MVP concept
+Not yet production-ready: Requires broader real-world validation, stronger evaluation coverage, and integration with enterprise data sources
 
 ### What ships next (next 2 sprints)
-_____
+Sprint 1 · Validate & Strengthen
+
+Test Juno with real PM inputs: transcripts, tickets, emails, and product feedback
+Expand evaluation set and measure accuracy, evidence grounding, actionability, and hallucination rate
+Refine prioritization logic and confidence/uncertainty signals
+Incorporate PM feedback from pilot users
+
+Sprint 2 · Integrate & Scale
+
+Connect Juno to key enterprise sources such as Jira, Slack, and customer-feedback repositories
+Strengthen RAG retrieval, source traceability, and citation experience
+Add human-in-the-loop approval checkpoints before PRD recommendations are finalized
+Prepare a small pilot with PMs and establish success metrics
 
 ### What I watch (dashboards)
-_____
+Daily · Health & Risk
+AI errors, hallucinations & unsupported claims
+Low-confidence outputs / escalation rate
+System health & failed workflows
+Critical user feedback
 
-### Red lines (what blocks shipping — numbers, not feelings)
-_____
+Weekly · Product & Learning
+PM adoption, engagement & time saved
+Accept / edit / reject rates
+Insight & PRD quality scores
+Recurring corrections and failure patterns
+Feedback-loop improvements
+
+Per Release · Quality Gate
+Evaluation score vs. baseline
+Evidence grounding & citation coverage
+Hallucination / critical-error rate
+Regression testing across key workflows
+Human approval before production release
+
+### Red lines (what blocks shipping)
+No release if critical errors >0, grounding <95%, hallucinations >1%, eval score <90%, or critical regression is detected.
 
 ### Governance
-_Compliance · Safety · Reliability · Reputation._
+Juno earns trust through least-privilege access, evidence traceability, human oversight, continuous evaluation, and hard release gates—with automatic fallback or rollback when safety, reliability, or reputation thresholds are breached.
 
 ---
 
 ## Build Insights
 
-- **Friction point.** _____
-- **Key learning.** _____
-- **Aha moment.** _____
-
----
-
-## Repo structure
-
-```
-juno-pm/
-├── README.md                          ← this dashboard + pitch
-├── 01-prompting/
-│   ├── system-prompt.md               ← M1: Juno's system prompt
-│   └── lovable-prototype.md           ← M1: prototype link + debrief
-├── 02-strategy/
-│   ├── decision-matrix.md             ← M2: build / buy / fine-tune / partner call
-│   └── strategy-one-pager.md          ← M2: AI strategy one-pager
-├── 03-rag-prd/
-│   └── prd.md                         ← M3: AI PRD with retrieval requirements
-├── 04-ai-ux/
-│   ├── user-flow.md                   ← M4: AI-native user flow
-│   └── trust-gaps.md                  ← M4: trust-gap mitigations
-├── 05-agentic-workflows/
-│   ├── awspec.md                      ← M5: Agent Workflow Spec
-│   └── agent-control-panel.md         ← M5: Agent Control Panel
-└── 06-evals/
-    ├── eval-stack.md                  ← M6: layered eval stack
-    └── human-rubric.md                ← M6: human evaluation rubric
-```
+- **Friction point.** The biggest friction was translating a broad AI PM vision into clear, measurable requirements and evaluation criteria. With so many possibilities for what Juno could do, narrowing the scope, defining the right guardrails, and determining how to objectively measure “good” AI output took more iteration than expected.
+- **Key learning.** My biggest learning was that building an AI product is as much about designing trust as it is about designing functionality. Clear evidence, measurable evaluation criteria, human-in-the-loop controls, and feedback loops need to be built into the product from the start—not added later.
+- **Aha moment.** My aha moment was realizing that Juno doesn’t need to replace the PM—it needs to amplify the PM. The real value is not simply generating a PRD faster, but helping PMs move from scattered signals to confident, evidence-backed decisions while keeping human judgment at the center.
 
 ---
 
